@@ -1,0 +1,23 @@
+{
+  "name": "portifolio",
+  "version": "1.0.0",
+  "description": "Portifolio do desenvolvimento",
+  "main": "mysql.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramonS2999/portifolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramonS2999/portifolio/issues"
+  },
+  "homepage": "https://github.com/ramonS2999/portifolio#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
