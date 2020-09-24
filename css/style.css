@@ -159,7 +159,7 @@
     opacity: 0;
     animation: moveBanner 1s 0.9s forwards;
   }
-  
+
   @keyframes moveBanner {
     0% {
       transform: translateY(10rem) rotateY(-30deg);
@@ -427,7 +427,7 @@
   .contato-left {
     width: 35%;
     background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22, 22, 0.9)),
-      url(imagens/contato.jpg);
+      url(E:/Scripts/Novo_site/portifolio/imagens/contato.jpg);
     background-size: cover;
   }
   
@@ -513,7 +513,7 @@
   .sessao-orcamento{
     width: 100%;
     height: 100vh;
-    background: url("./imagens//bg-orcamento.jpg");
+    background: url("E://Scripts//Novo_site//portifolio//imagens//bg-orcamento.jpg");
     object-fit: cover;
     display: flex;
     justify-content: center;
@@ -622,5 +622,4 @@
     border-radius: .3rem;
     box-shadow:  0 0.1rem 0.6rem #00000009;
   }
-  
   
