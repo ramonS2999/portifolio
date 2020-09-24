@@ -48,21 +48,21 @@
                 <form class="form">
                     <label class="label-input" for="">
                         <i class="far fa-user icon-modify"></i>
-                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Nome" id="nome">
                     </label>
                     
                     <label class="label-input" for="">
                         <i class="far fa-envelope icon-modify"></i>
-                        <input type="email" placeholder="Email">
+                        <input type="email" placeholder="Email" id="email">
                     </label>
                     
                     <label class="label-input" for="">
                         <i class="fas fa-lock icon-modify"></i>
-                        <input type="password" placeholder="Password">
+                        <input type="password" placeholder="Password" id="password">
                     </label>
                     
                     
-                    <button class="btn btn-second">Entrar</button>        
+                    <button type="submit" class="btn btn-second" onclick="inserirDeveloper()">Cadastrar</button>        
                 </form>
             </div><!-- second column -->
         </div><!-- first content -->
@@ -99,20 +99,21 @@
                 
                     <label class="label-input" for="">
                         <i class="far fa-envelope icon-modify"></i>
-                        <input type="email" placeholder="Email">
+                        <input type="email" placeholder="Email" id="email">
                     </label>
                 
                     <label class="label-input" for="">
                         <i class="fas fa-lock icon-modify"></i>
-                        <input type="password" placeholder="Password">
+                        <input type="password" placeholder="Password" id="password">
                     </label>
                 
                     <a class="password" href="#">Esqueceu sua senha?</a>
-                    <button class="btn btn-second">Entrar</button>
+                    <button type="submit" class="btn btn-second" onclick="inserirDeveloper()">Entrar</button>
                 </form>
             </div><!-- second column -->
         </div><!-- second-content -->
     </div>
     <script src="js/app.js"></script>
+    <script  src="js/mysql.js"></script>
 </body>
 </html>
